@@ -1,3 +1,5 @@
 <?php
 
-var_dump($_GET);
+require_once "../app/bootstrap.php";
+
+$init = new Core;
